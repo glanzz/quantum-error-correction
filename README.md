@@ -47,3 +47,7 @@ circuit = s.Circuit(qec.program)
 sampler = circuit.compile_sampler()
 print(sampler.sample(shots=10))
 ```
+
+
+### Realistic quantum model
+Check QECBuilder to build a realistic quantum error correction circuit for given code distance and physical error probablities
